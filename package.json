@@ -1,0 +1,19 @@
+{
+  "name": "powerdmenu",
+  "version": "1.0.0",
+  "description": "List programs according to .desktop files, and start a chosen application using dmenu.",
+  "main": "lib/powerdmenu",
+  "keywords": [
+    "dmenu"
+  ],
+  "author": "Stephan Meijer",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "powerdmenu": "lib/powerdmenu.js"
+  },
+  "dependencies": {
+    "glob": "^5.0.10",
+    "osenv": "^0.1.2"
+  }
+}
